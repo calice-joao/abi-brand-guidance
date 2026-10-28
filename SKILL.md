@@ -76,12 +76,34 @@ The guide permits typographic devices such as an eyebrow bar, highlight, or unde
 - The graphic system comes from the symbol's dynamic curves. The guide's composition examples enlarge the symbol so yellow areas reach the layout corners; use the supplied pattern sparingly and on layouts with limited text and graphics.
 - Prefer the included icon library. Icons should remain small annotations, not large illustrations. The guide's construction reference for new icons is a 10 × 10 grid, sized to 50 px with a 2.5 px stroke; use this only when a new icon is actually needed.
 
-## Presentations and interfaces
+## Presentations
 
-For presentations, use the supplied `PPT Template` as the first reference when the user asks for a corporate AB InBev deck. Preserve its template, editable objects, and original artwork. Apply the guide's logo, color, typography, photography, and composition rules; do not force a decorative brand element onto a data-dense slide.
+For presentation creation, rebuilding, adaptation, or review, use the `Presentations` skill for the authoring workflow, output destination, file generation, rendering, and delivery. This skill supplies the AB InBev corporate brand layer. When the user asks you to create or change a deck, produce the deck; give review findings without editing only when the user asks for a review.
 
-For interfaces, apply the same corporate identity with the interface skill's responsive, interaction, and component guidance. The corporate brand guide does not define a complete product UI system: it does not supply universal component behavior, breakpoints, spacing tokens, or product-specific interaction states. Use a supplied product design system for those decisions. If none is supplied, use a clear implementation choice and do not label it an official ABI rule.
+### Choose the presentation workflow
 
+Identify whether the user wants a new deck, a rebuild of an existing deck, an adaptation for a new audience or context, or a review. Determine whether each supplied deck is a file to edit, a design template to match, a visual reference, or only a source of content. Do not infer that a deck supplied for its text or data is also a design reference.
+
+- **Create:** Confirm the audience, purpose, intended decision or action, content sources, requested platform, and slide count when these are not clear. Plan the narrative before building. Map each slide's purpose and key message to a suitable template layout. Treat a requested slide count as the total, including the cover; do not add a cover to a one-slide deliverable by default.
+- **Rebuild:** Before changing an existing deck, ask whether to preserve its current structure or reorganize it. Preserving the structure is the default. If the user chooses preservation, keep the slide order and content hierarchy while improving layout, clarity, and brand consistency. Reorganize only with the user's approval. Preserve factual claims, figures, source notes, and meaning; do not remove or alter them silently.
+- **Adapt:** Confirm the target audience, purpose, and context. Preserve the source deck's structure by default; ask whether the user wants that structure retained or wants a reorganization for the new context. Carry forward claims and figures only when they remain valid for the target context, and flag anything that needs confirmation.
+- **Review:** Inspect the existing deck and report concrete brand or presentation issues with slide locations. Do not edit unless the user also asks for changes.
+
+### Use the supplied PowerPoint template
+
+Use `assets/PPT Template/AB InBev_New Template_1.12.22.pptx` as the first template for AB InBev corporate presentations unless the user supplies a different approved template or asks for another design. It contains example slides and named layouts, including covers, agendas, section dividers, statement slides, body layouts, photo layouts, chart and table layouts, and a closing slide. The example deck is a layout library, not a default slide sequence or a requirement to use every layout.
+
+Inspect the actual template before authoring: check slide dimensions, masters, layouts, theme, fonts, logos, recurring elements, and representative examples. Select a layout based on the content and message of each slide. Reuse or duplicate appropriate sample slides and edit their native elements; do not recreate the template from memory or use screenshots as a substitute for editable slides. Preserve the approved master and theme, editable objects, original logo artwork, and required template elements. Remove unused placeholders. Do not force decorative brand elements into dense data slides.
+
+Use the included official assets at their manifest paths. Keep brand artwork unchanged. If no template layout fits, choose a clear layout consistent with the template and identify it as an implementation choice rather than an official ABI rule.
+
+### Review and deliver
+
+Before delivery, render and inspect every slide at a readable size. Check the requested slide count and structure, narrative flow, readable text, line wrapping, spacing, clipping, overlap, image crops, logo integrity, chart and table accuracy, source notes, and consistency with the selected template. For a rebuild or adaptation, compare the result with the source deck and confirm that required content and structure were preserved. Fix visual defects before delivery; report unresolved source gaps or assumptions clearly. These production steps are implementation guidance, not additional official brand rules.
+
+## Interfaces
+
+For interfaces, apply the corporate identity together with the interface skill's responsive, interaction, and component guidance. The corporate brand guide does not define a complete product UI system: it does not supply universal component behavior, breakpoints, spacing tokens, or product-specific interaction states. Use a supplied product design system for those decisions. If none is supplied, use a clear implementation choice and do not label it an official ABI rule.
 ## Assets and use boundary
 
 The skill bundles a focused set of official files for internal AB InBev work. Use them only for the intended brand application and do not redistribute the bundle outside authorized company channels. The full source directory and the assets included here are inventoried in `references/assets-manifest.md`.
